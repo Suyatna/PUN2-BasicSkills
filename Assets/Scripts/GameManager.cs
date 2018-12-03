@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         }
 
         Debug.LogFormat("PhotonNetwork: Loading level : {0}", PhotonNetwork.CurrentRoom.PlayerCount);
-        PhotonNetwork.LoadLevel("Room for " +PhotonNetwork.CurrentRoom.PlayerCount);
+        PhotonNetwork.LoadLevel("PunBasics-Room for " +PhotonNetwork.CurrentRoom.PlayerCount);
     }
 
     #endregion
