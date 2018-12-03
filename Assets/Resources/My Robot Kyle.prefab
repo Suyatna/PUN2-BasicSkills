@@ -277,6 +277,7 @@ GameObject:
   - component: {fileID: 4865576632327788}
   - component: {fileID: 95756325027458166}
   - component: {fileID: 143327927638002372}
+  - component: {fileID: 114391915297079372}
   m_Layer: 0
   m_Name: My Robot Kyle
   m_TagString: Untagged
@@ -1357,7 +1358,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1417036733583806}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.091}
+  m_LocalPosition: {x: 0, y: 0.1, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4644327610265760}
@@ -1510,6 +1511,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114391915297079372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1417036733583806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786ab57331bc77143a2c217553c062d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137077565614066030
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
